@@ -12,6 +12,6 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "webpack": "^1.13.2",
-    "webpack-stream": "^3.2.0"
+    "webpack-stream": "git+https://github.com/renaesop/webpack-stream.git"
   }
 }
