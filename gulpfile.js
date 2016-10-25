@@ -3,6 +3,7 @@
  */
 const gulp = require('gulp');
 const webpack = require('webpack-stream');
+const path = require('path');
 
 gulp.task('default', function () {
   return gulp.src('./sec/entry.js')
@@ -10,6 +11,7 @@ gulp.task('default', function () {
       entry: './src/entry',
       output: {
         filename: '/js/[name].js',
+        path: path.resolve('./dist')
       },
     }))
     .pipe(gulp.dest('./dist'));
