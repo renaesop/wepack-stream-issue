@@ -1,0 +1,17 @@
+{
+  "name": "webpack-stream-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "webpack": "^1.13.2",
+    "webpack-stream": "^3.2.0"
+  }
+}
